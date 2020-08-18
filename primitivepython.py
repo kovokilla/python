@@ -21,3 +21,7 @@ tuples = (t1,t2,t3)
 for i in tuples:
     print(i.name)
     print(i.size)
+
+# s tuples sa asi blbo countuje !!!
+#a = tuples.count(ovocie)
+#print(a)
