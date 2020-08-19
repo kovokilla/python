@@ -25,3 +25,21 @@ for i in tuples:
 # s tuples sa asi blbo countuje !!!
 #a = tuples.count(ovocie)
 #print(a)
+print("Yes") if 5 > 2 else print("No")
+#bez dvojbodky !!!
+i = 1
+while i < 6:
+  print(i)
+  i += 1
+else:
+  print("i is no longer less than 6")
+  #else sa da pouzit aj vo while!!!
+
+def myfunc(n):
+  return lambda a : a * n
+
+mydoubler = myfunc(2)
+mytripler = myfunc(3)
+
+print(mydoubler(11))
+print(mytripler(11))
